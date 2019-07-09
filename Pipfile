@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.doubanio.com/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+# django
+django = ">=2"
+django-import-export = ">=0.5.1"
+django-redis = "*"
+psycopg2-binary = "*"
+django-silk = "*"
+# drf
+djangorestframework = "*"
+django-rest-swagger = "*"
+djangorestframework-jwt = "*"
+drf-extensions = "*"
+drf-yasg = "*"
+django-cors-headers = "*"
+# server
+whitenoise = "*"
+6210100 = {file = "https://github.com/darklow/django-suit/tarball/v2"}
+gunicorn = "*"
+gevent = "*"
+# additional apps
+
+[requires]
+python_version = "3.6"
